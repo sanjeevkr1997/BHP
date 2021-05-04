@@ -39,7 +39,7 @@ def user_input_features():
 
 
 df = user_input_features()
-st.subheader('Class labels and their corresponding index number')
+# st.subheader('Class labels and their corresponding index number')
 st.write('Location - ', df[0])
 st.write('Sqaure_fit - ', df[1])
 st.write('BHK - ', df[2])
